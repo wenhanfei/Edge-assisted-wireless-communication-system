@@ -9,6 +9,16 @@
   ## Experimental environment
   Our proposed prediction scheme is tested on our OpenAirInterface (OAI) based prototype platform, which consists of software-defined EPC, RAN, radio frequency front-end (i.e., USRP), MEC server, and several commercial UEs, as shown in the following figure. The EPC and RAN are all in one mini PC. 
   
+  Component |Hardware|Software|
+  ----|----|----|
+ 
+  <img src="http://chart.googleapis.com/chart?cht=tx&chl=RAN/eNB" style="border:none;">|Intel i9-9980HK|OpenAirInterface (OAI)|
+  EPC|Intel i7-8559U|Openair-cn|
+  MEC server|Intel i7-8559U|Edgegallery|
+  Radio Frequency Front-End|Ettus USRP B210|N/A|
+  UEs|6×Huawei Nexus 6P|Android 8.0|
+
+  
   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
   
   ## Data Collection
