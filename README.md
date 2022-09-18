@@ -25,15 +25,20 @@
 
   
   ## Data Collection
-
   we collect datasets under the following three different transmission conditions based on the edge-assisted wireless communication system.
+  ### Configuration Cases
   * Low load: Each UE’s service is set to play live video with the bitrate of 1 M. 
   * High load: Each UE’s service is set to play live video with the bitrate of 15 M.
   * Random load: Each UE’s service is set to play DASH adaptive video stream (adaptive switching between 1 M, 3 M, 5 M, 8 M, 15 M and 20 M).
   
   ### Process 
   
-  To generate datasets for different wireless environments, we have done the following implementation work. Firstly, we open the OAI system, including eNB and EPC (three core network elements, i.e., MME, HSS and SPGW). Secondly, we switch the commercial UEs from airplane mode to non-airplane mode. The UE are connected to the cellular network as shown in the figure below.
-  
+  To generate datasets for different wireless environments, we have done the following implementation work. 
+  * Firstly, we open the OAI system, including eNB and EPC (three core network elements, i.e., MME, HSS and SPGW). 
+  * Secondly, we switch the commercial UEs from airplane mode to non-airplane mode. The UEs are connected to the cellular network as shown in the figure below.
   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/UE connected to cellular network illustration.PNG"  alt="Environment">
+  * Thirdly, the services of the UEs are set to play live video. The bitrate of live video refers to the above configuration cases.
+  * 
+
+
   
