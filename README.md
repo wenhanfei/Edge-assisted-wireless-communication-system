@@ -9,7 +9,7 @@
   ## Experimental environment
   Our proposed prediction scheme is tested on our OpenAirInterface (OAI) based prototype platform, which consists of software defined evolved packet core (EPC) and RAN using OAI, MEC platform, RF front-end using USRP B210, and commercial UEs, as shown in the following figure. OAI deployment is all in one mode, i.e., the EPC and RAN are deployed in one mini PC. 
   
-  The system can interconnect with commercial UEs and provide them with a cellular network for data transmission. We can obtain bandwidth-related RAN information from the RAN side through the MEC server and generate a dataset.
+  The system can interconnect with commercial UEs and provide them with a cellular network for data transmission. We can obtain bandwidth-related RAN information from the RAN side through the MEC server and generate datasets.
   
   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
   
