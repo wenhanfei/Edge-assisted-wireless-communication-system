@@ -11,8 +11,7 @@
   
   Component |Hardware|Software|
   ----|----|----|
- 
-  <img src="http://chart.googleapis.com/chart?cht=tx&chl=RAN/eNB" style="border:none;">|Intel i9-9980HK|OpenAirInterface (OAI)|
+  RAN/eNB|Intel i7-8559U|OpenAirInterface (OAI)|
   EPC|Intel i7-8559U|Openair-cn|
   MEC server|Intel i7-8559U|Edgegallery|
   Radio Frequency Front-End|Ettus USRP B210|N/A|
