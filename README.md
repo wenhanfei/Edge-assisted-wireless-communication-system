@@ -45,7 +45,7 @@
   $\sigma^{RP}_{i}(t)$|the reference signal received power (RSRP) for the $i$-th user at the time index $(t)$|
   $\sigma^{RQ}_{i}(t)$|the reference signal received quality (RSRQ) for the $i$-th user at the time index $(t)$|
   $\sigma^{CQI}_{i}(t)$|the channel quality indicator (CQI) for the $i$-th user at the time index $(t)$|
-  $N^{PRB}_{i}(t)$|the number of allocated PRBs for the $i$-th user at the time index $(t)$|
+  $N^{PRB}_{i}(t)$|the number of allocated  physical resource blocks for the $i$-th user at the time index $(t)$|
 
  The datasets collected through the above steps are used to train the bandwidth prediction models and tested on this edge-assisted wireless communication system.
  
