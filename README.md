@@ -10,5 +10,6 @@
   Our proposed prediction scheme is tested on our OpenAirInterface (OAI) based prototype platform, which consists of software-defined EPC, RAN, radio frequency front-end (i.e., USRP), MEC server, and several commercial UEs, as shown in the following figure. The EPC and RAN are all in one mini PC. 
   
   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
+  
   ## Data Collection
   
