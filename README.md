@@ -37,10 +37,16 @@
   * Firstly, we open the OAI system, including eNB and EPC (three core network elements, i.e., MME, HSS and SPGW). 
   * Secondly, we switch the commercial UEs from airplane mode to non-airplane mode. The UEs are connected to the cellular network as shown in the figure below.
   * Thirdly, the services of the UEs are set to play live video. The bitrate of live video refers to the above configuration cases.
-  * Fourthly, the MEC server collects the RAN information through the RNIS feedback during the t-th transmission period and saves them to the database according to a certain format, e.g., $$\sigma^{RP}_{i}(t)$,$\sigma^{RP}_{i}(t)$,$sigma^{RQ}_{i}(t)$,$\sigma^{CQI}_{i}(t)$,$N^{PRB}_{i}(t)$$
-   <div align=center>
-  <img src="http://chart.googleapis.com/chart?cht=tx&chl={\sigma^{RP}_{i}(t),\sigma^{RQ}_{i}(t), \sigma^{CQI}_{i}(t), N^{PRB}_{i}(t), $\forall i$}" style="border:none;">, 
-  </div>。
+  * Fourthly, the MEC server collects the RAN information through the flexRAN feedback during the $t$-th transmission period and saves them to the dataset according to a certain format. e.g., $$\sigma^{RP}_{i}(t)$,$\sigma^{RP}_{i}(t)$,$sigma^{RQ}_{i}(t)$,$\sigma^{CQI}_{i}(t)$,$N^{PRB}_{i}(t)$$
+   The details of RAN information are listed in the following table.
+  
+ RAN information |Meaning of RAN information|
+  ----|----|
+  $\sigma^{RP}_{i}(t)$|the reference signal received power (RSRP) for the $i$-th user at the time index $(t)$|
+  $\sigma^{RQ}_{i}(t)$|the reference signal received quality (RSRQ) for the $i$-th user at the time index $(t)$|
+  $\sigma^{CQI}_{i}(t)$|the channel quality indicator (CQI) for the $i$-th user at the time index $(t)$|
+  $N^{PRB}_{i}(t)$|the number of allocated PRBs for the $i$-th user at the time index $(t)$|
+
    <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/UE connected to cellular network illustration.PNG"  alt="illustration">
 
 
