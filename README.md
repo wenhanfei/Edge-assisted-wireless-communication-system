@@ -49,7 +49,7 @@
 
  The datasets collected through the above steps are used to train the bandwidth prediction models and tested on this edge-assisted wireless communication system.
  
- 
+ The data training process is performed on the MEC server with the Pytorch platform. When the offline training process is completed, the bandwidth prediction models are hosted on the MEC server. The proposed and baseline prediction schemes acquire RAN context measurement resultsof the previous M = 20 transmission periods, and predict the available bandwidth for the next transmission period.
 
 
   
