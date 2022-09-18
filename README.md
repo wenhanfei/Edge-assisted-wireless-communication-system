@@ -35,5 +35,5 @@
   
   To generate datasets for different wireless environments, we have done the following implementation work. Firstly, we open the OAI system, including eNB and EPC (three core network elements, i.e., MME, HSS and SPGW). Secondly, we switch the commercial UEs from airplane mode to non-airplane mode. The UE are connected to the cellular network as shown in the figure below.
   
-  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Illustration of UE connecting to cellular network.PNG"  alt="Environment">
+  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/UE connected to cellular network illustration.PNG"  alt="Environment">
   
