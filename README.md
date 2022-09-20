@@ -4,7 +4,7 @@
 
 *H. Wen, J. Yu, G. Pan, X. Chen, S. Zhang and S. Xu. A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction, Submitted to IEEE Wireless Communications Letters.*  
 
-  This is the Github repository for the detailed introduction of the experimental environment and data acquisition process of this letter. The main purpose of the repository is to demonstrate our edge-assisted wireless communication system, discuss and report issues. This demo shows the architecture of the system and the process of acquiring data. All data in this letter are collected by ourselves through this system.
+  This is the Github repository for the detailed introduction of the experimental environment and data acquisition process of this letter. The main purpose of the repository is to demonstrate our edge-assisted wireless communication system, discuss and report issues. This demo shows the architecture of the system and the process of acquiring data. All the experiments in the letter are based on the datasets collected on the prototype platform.
   
   ## Experimental environment
   Our proposed prediction scheme is tested on our OpenAirInterface (OAI) based prototype platform, which consists of software defined evolved packet core (EPC) and RAN using OAI, MEC platform, RF front-end using USRP B210, and commercial UEs, as shown in the following figure. OAI deployment is all in one mode, i.e., the EPC and RAN are deployed in one mini PC. 
