@@ -70,9 +70,17 @@
  The data training process is performed on the MEC server with the Pytorch platform. When the offline training process is completed, the bandwidth prediction models are hosted on the MEC server. The proposed and baseline prediction schemes acquire RAN context measurement resultsof the previous M = 20 transmission periods, and predict the available bandwidth for the next transmission period.
 
 ### Experimental Results
+We have shown the performance of the MLP-LSTM prediction scheme, and compared it with the proposed scheme in Fig. 3 and Table III.
+We can observe from Fig. 3 that the performance of the MLP-LSTM is slightly worse than the proposed CNN-LSTM. 
+As shown in Table III, the proposed CNN-LSTM outperforms the MLP-LSTM in terms of MAE, RMSE, $R^2$ and running time. MLP is a special case of CNN, and each neuron of MLP is connected to all nodes in the previous layer. Thus, its amount of parameters is larger, leading to a longer running time and worse convergence performance.
+
 <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.png"  alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
 
-<p align="center">**要加粗的字体**</p>
-We have shown the performance of the MLP-LSTM prediction scheme, and compared it with the proposed scheme in Fig. 3 and Table III.
-We can observe from Fig. 1 that the performance of the MLP-LSTM is slightly worse than the proposed CNN-LSTM. 
-As shown in Table I, the proposed CNN-LSTM outperforms the MLP-LSTM in terms of MAE, RMSE, $R^2$ and running time. MLP is a special case of CNN, and each neuron of MLP is connected to all nodes in the previous layer. Thus, its amount of parameters is larger, leading to a longer running time and worse convergence performance.
+<p align="center">Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.</p>
+
+We also plot the CDF of the absolute prediction error of the MLP-LSTM scheme, as shown in Fig~4. The achievable median absolute
+error of the proposed CNN-LSTM is 92.34 kbps, which is superior to the MLP-LSTM (153.38 kbps), corresponding to 39.8\% improvement.
+
+<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 4. CDF of absolute errors.png"  alt="Fig. 4. CDF of absolute errors">
+
+<p align="center">Fig. 4. CDF of absolute errors for MLP-LSTM and CNN-LSTM prediction schemes.</p>
