@@ -70,9 +70,9 @@
  The data training process is performed on the MEC server with the Pytorch platform. When the offline training process is completed, the bandwidth prediction models are hosted on the MEC server. The proposed and baseline prediction schemes acquire RAN context measurement resultsof the previous M = 20 transmission periods, and predict the available bandwidth for the next transmission period.
 
 ### Experimental Results
-<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.PNG"  alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
+<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.png"  alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
 
 <p align="center">**要加粗的字体**</p>
-We have shown the performance of the MLP-LSTM prediction scheme, and compared it with the proposed scheme in Fig. 1 and Table I.
+We have shown the performance of the MLP-LSTM prediction scheme, and compared it with the proposed scheme in Fig. 3 and Table III.
 We can observe from Fig. 1 that the performance of the MLP-LSTM is slightly worse than the proposed CNN-LSTM. 
 As shown in Table I, the proposed CNN-LSTM outperforms the MLP-LSTM in terms of MAE, RMSE, $R^2$ and running time. MLP is a special case of CNN, and each neuron of MLP is connected to all nodes in the previous layer. Thus, its amount of parameters is larger, leading to a longer running time and worse convergence performance.
