@@ -12,8 +12,11 @@
   The system can interconnect with commercial UEs and provide them with a cellular network for data transmission. We can obtain bandwidth-related RAN information from the RAN side through the MEC server and generate datasets.
   
   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
-  
+  <p align="center">Fig. 1. The snapshot of the edge-assisted wireless communication system.</p>
   The details of hardware and software configurations are listed in the following table.
+  <p align="center">Table I   Configurations of OAI-based Prototype Platform.</p>
+  
+  <div align="center">
   
   Component |Hardware|Software|
   ----|----|----|
@@ -22,6 +25,9 @@
   MEC server|Intel i7-8559U|Edgegallery|
   Radio Frequency Front-End|Ettus USRP B210|N/A|
   UEs|6×Huawei Nexus 6P|Android 8.0|
+  
+  </div>
+ 
 
   
   ## Data Collection
@@ -38,7 +44,18 @@
   * Secondly, we switch the commercial UEs from airplane mode to non-airplane mode. The UEs are connected to the cellular network as shown in the figure below.
   * Thirdly, the services of the UEs are set to play live video. The bitrate of live video refers to the above configuration cases.
   * Fourthly, the MEC server collects the RAN information through the flexRAN feedback during the $t$-th transmission period and saves them to the dataset according to a certain format.  The details of RAN information are listed in the following table.
+
+
+  <div align="center">
+  
    <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/UE connected to cellular network illustration.PNG"  alt="illustration">
+  
+   </div>
+   
+   <p align="center">Fig. 2. The snapshoot of UE connected to cellular network illustration.</p>
+  
+  <p align="center">Table II   The meaning of RAN information</p>
+ <div align="center">
   
  RAN information |Meaning of RAN information|
   ----|----|
@@ -46,7 +63,8 @@
   $\sigma^{RQ}_{i}(t)$|the reference signal received quality (RSRQ) for the $i$-th user at the time index $(t)$|
   $\sigma^{CQI}_{i}(t)$|the channel quality indicator (CQI) for the $i$-th user at the time index $(t)$|
   $N^{PRB}_{i}(t)$|the number of allocated  physical resource blocks for the $i$-th user at the time index $(t)$|
-
+ </div>
+  
  The datasets collected through the above steps are used to train the bandwidth prediction models and tested on this edge-assisted wireless communication system.
  
  The data training process is performed on the MEC server with the Pytorch platform. When the offline training process is completed, the bandwidth prediction models are hosted on the MEC server. The proposed and baseline prediction schemes acquire RAN context measurement resultsof the previous M = 20 transmission periods, and predict the available bandwidth for the next transmission period.
