@@ -86,6 +86,18 @@ As shown in Table III, the proposed CNN-LSTM outperforms the MLP-LSTM in terms o
  
 <p align="center">Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.</p>
 
+  <p align="center">Table III   Performance Comparison among Different Prediction Algorithms</p>
+
+<div align="center">
+  
+Prediction Algorithms|MAE (kbps)|RMSE (kbps)|$R^2$|Running Time|
+  ----|----|----|----|----|
+MLP-LSTM  | 211.59 | 443.01 | 0.90|3.732 ms|
+CNN-LSTM |  97.37| 108.95 | 0.94| 2.989 ms|
+  
+</div>
+  
+
 We also plot the CDF of the absolute prediction error of the MLP-LSTM scheme, as shown in Fig 4. The achievable median absolute
 error of the proposed CNN-LSTM is 92.34 kbps, which is superior to the MLP-LSTM (153.38 kbps), corresponding to 39.8\% improvement.
 
