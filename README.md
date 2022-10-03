@@ -11,7 +11,7 @@
   
   The system can interconnect with commercial UEs and provide them with a cellular network for data transmission. We can obtain bandwidth-related RAN information from the RAN side through the MEC server and generate datasets.
   
-  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
+  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 1. Experimental environment.PNG"  alt="Environment">
   <p align="center">Fig. 1. The snapshot of the edge-assisted wireless communication system.</p>
   The details of hardware and software configurations are listed in the following table.
   <p align="center">Table I   Configurations of OAI-based Prototype Platform.</p>
@@ -48,7 +48,7 @@
 
   <div align="center">
   
-   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/UE connected to cellular network illustration.PNG"  alt="illustration">
+   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 2. UE connected to cellular network illustration.PNG"  alt="illustration">
   
    </div>
    
