@@ -11,10 +11,14 @@
   
   The system can interconnect with commercial UEs and provide them with a cellular network for data transmission. We can obtain bandwidth-related RAN information from the RAN side through the MEC server and generate datasets.
   
-  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 1. Experimental environment.PNG"  alt="Environment">
+  <div align="center">
+  
+  <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 1. Experimental environment.PNG" width ="600" alt="Environment">
   <p align="center">Fig. 1. The snapshot of the edge-assisted wireless communication system.</p>
   The details of hardware and software configurations are listed in the following table.
   <p align="center">Table I   Configurations of OAI-based Prototype Platform.</p>
+  
+   </div>
   
   <div align="center">
   
@@ -48,7 +52,7 @@
 
   <div align="center">
   
-   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 2. UE connected to cellular network illustration.PNG"  alt="illustration">
+   <img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 2. UE connected to cellular network illustration.PNG"  width ="400"  alt="illustration">
   
    </div>
    
@@ -74,13 +78,23 @@ We have shown the performance of the MLP-LSTM prediction scheme, and compared it
 We can observe from Fig. 3 that the performance of the MLP-LSTM is slightly worse than the proposed CNN-LSTM. 
 As shown in Table III, the proposed CNN-LSTM outperforms the MLP-LSTM in terms of MAE, RMSE, $R^2$ and running time. MLP is a special case of CNN, and each neuron of MLP is connected to all nodes in the previous layer. Thus, its amount of parameters is larger, leading to a longer running time and worse convergence performance.
 
-<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.png"  alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
+<div align="center">
+  
+<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.png"  width ="800" alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
 
+ </div>
+ 
 <p align="center">Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.</p>
 
-We also plot the CDF of the absolute prediction error of the MLP-LSTM scheme, as shown in Fig~4. The achievable median absolute
+We also plot the CDF of the absolute prediction error of the MLP-LSTM scheme, as shown in Fig 4. The achievable median absolute
 error of the proposed CNN-LSTM is 92.34 kbps, which is superior to the MLP-LSTM (153.38 kbps), corresponding to 39.8\% improvement.
 
-<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 4. CDF of absolute errors.png"  alt="Fig. 4. CDF of absolute errors">
+<div align="center">
+  
+<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 4. CDF of absolute errors.png" width ="400"  alt="Fig. 4. CDF of absolute errors">
+
+</div>
 
 <p align="center">Fig. 4. CDF of absolute errors for MLP-LSTM and CNN-LSTM prediction schemes.</p>
+
+
