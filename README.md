@@ -70,7 +70,7 @@
  The data training process is performed on the MEC server with the Pytorch platform. When the offline training process is completed, the bandwidth prediction models are hosted on the MEC server. The proposed and baseline prediction schemes acquire RAN context measurement resultsof the previous M = 20 transmission periods, and predict the available bandwidth for the next transmission period.
 
 ### Experimental Results
-<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Experimental Environment.PNG"  alt="Environment">
+<img src="https://github.com/wenhanfei/Edge-assisted-wireless-communication-system/blob/main/Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth.PNG"  alt="Fig. 3. The predicted available bandwidth versus the ground-truth available bandwidth">
 
 <p align="center">**要加粗的字体**</p>
 We have shown the performance of the MLP-LSTM prediction scheme, and compared it with the proposed scheme in Fig. 1 and Table I.
